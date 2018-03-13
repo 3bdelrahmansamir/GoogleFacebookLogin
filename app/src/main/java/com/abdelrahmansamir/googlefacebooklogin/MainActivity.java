@@ -10,6 +10,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
@@ -110,6 +111,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                             userType = "Facebook";
 
                             Log.e("User Info ", userName + " " + userEmail + " " + userID + " " + userType);
+
+                            Toast.makeText(MainActivity.this, "User Info " + userName + " " + userEmail + " " + userID + " " + userType, Toast.LENGTH_LONG).show();
 
                             try {
 
@@ -220,6 +223,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 userType = "Google";
 
                 Log.e("User Info ", userName + " " + userEmail + " " + userID + " " + userType);
+                Toast.makeText(MainActivity.this, "User Info " + userName + " " + userEmail + " " + userID + " " + userType, Toast.LENGTH_LONG).show();
 
                 try {
                     userPhoto = acct.getPhotoUrl().toString();

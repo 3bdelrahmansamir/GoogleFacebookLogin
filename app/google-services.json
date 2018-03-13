@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1062512922984-42sdebck3qrp1i4qid4n9eiird7fst01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdelrahmansamir.googlefacebooklogin",
+            "certificate_hash": "580c8e0c8aa43ed6873e934f1c4da73b6791e505"
+          }
+        },
+        {
           "client_id": "1062512922984-evgjgg988nvmd4mpp72rjh01pdh40s5d.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
