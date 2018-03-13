@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1062512922984",
+    "firebase_url": "https://gifted-vigil-153908.firebaseio.com",
+    "project_id": "gifted-vigil-153908",
+    "storage_bucket": "gifted-vigil-153908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062512922984:android:07490c8d3dcdd30d",
+        "android_client_info": {
+          "package_name": "com.abdelrahmansamir.googlefacebooklogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062512922984-evgjgg988nvmd4mpp72rjh01pdh40s5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdelrahmansamir.googlefacebooklogin",
+            "certificate_hash": "4b77ff170d9209d38a4528433bed1ee3c51f79d8"
+          }
+        },
+        {
+          "client_id": "1062512922984-8alkndaohp0gohsd5n5qjabvj2uu7dbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsjBb2sjrosm20gIz_um32WPo5eCdzehU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062512922984-8alkndaohp0gohsd5n5qjabvj2uu7dbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
